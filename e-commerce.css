@@ -177,3 +177,212 @@ button {
     display:none;
     margin:0 20%;
 }
+
+
+#product {
+    display:flex;
+    border:1px solid rgba(0, 0, 0, 0.249);
+    border-radius:25px;
+    padding-top:4%;
+    padding-bottom:2%;
+    padding-right:30px;
+    margin-bottom:5%;
+}
+#img-and-btn {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+#product img {
+    height:70%;
+    width:70%;
+    margin-left:0;
+    margin-right:0;
+}
+#buy-now-btn {
+    width:150px;
+    height:35px;
+    background-color:rgb(0, 179, 255);
+    border-radius:10px;
+    border:none;
+    font-weight:600;
+    color:white;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+#product-title {
+    font-size:1.65em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:0.5px;
+}
+#product-price {
+    display:flex;
+    justify-content: flex-start;
+    margin-left:0; 
+    margin-top:7%;
+}
+#product-price p:nth-child(1) {
+    font-family:sans-serif;
+    margin-left:0;
+    margin-right:2%;
+    font-size:1.2rem;
+    
+}
+#product-price p:nth-child(2) {
+    font-family:serif;
+    margin-left:0;
+    font-size:0.9rem;
+    margin-left:5%;
+}
+#product-title-price-info p:nth-child(3) {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:13%;
+}
+
+#solar-synergy-product-grid-2 {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:35px;
+    row-gap:80px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:4%;
+    margin-bottom:8%;
+}
+.solar-synergy-product-grid-block-2 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition-duration:1.2s;
+}
+.solar-synergy-product-grid-block-2 img {
+    height:80%;
+    width:80%; 
+    background-color:color;
+    border-radius:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-top:3%;
+    transition-duration:0.9s;
+}
+.solar-synergy-product-grid-block-2 img:hover {
+    scale:1.05;
+    box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.7);
+    background-color:rgba(240, 255, 255, 0.5);
+}
+.solar-synergy-product-grid-block-2 p {
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    margin-top:4.5%;
+}
+.solar-synergy-product-grid-block-2 button {
+    height:35px;
+    width:130px;
+    margin-top:17px;
+    margin-bottom:10px;
+    padding-right:12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgba(0, 140, 255, 0.348);
+    color:black;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:0.4px;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    scale:1.1;
+    transition-duration:1s;
+}
+.solar-synergy-product-grid-block-2 button:hover {
+    scale:1.15;
+}
+
+.all-product-details-2 .product-details-2:nth-child(1) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-2 .product-details-2:nth-child(2) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-2 .product-details-2:nth-child(3) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-2 .product-details-2:nth-child(4) {
+    display:none;
+    margin:0 20%;
+}
+
+
+#footer {
+    display:flex;
+    flex-direction:column;
+    border-top:1px solid black;
+    padding-top:3%;
+    padding-bottom:2%;
+    background-color:azure;
+}
+#footer p:nth-child(2) {
+    margin-top:1%;
+    font-family: sans-serif;
+    font-size:0.7rem;
+    opacity:0.7;
+    margin-top:1%;
+}
+#footer p:nth-child(3) {
+    margin-top:1%;
+    font-family: sans-serif;
+    font-size:0.9em;
+    color:#000000;
+}
+#app-icons-flex {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:40%;
+    margin-left:40%;
+}
+#app-icons:nth-child(1) {
+    height:15%;
+    width:15%;
+    opacity:0.8;
+    transition-duration:0.8s;
+}
+#app-icons:nth-child(2) {
+    height:18%;
+    width:18%;
+    opacity:0.8;
+    transition-duration:0.8s;
+}
+#app-icons:nth-child(3) {
+    height:21%;
+    width:21%;
+    opacity:0.8;
+    transition-duration:0.8s;
+}
+#app-icons:nth-child(4) {
+    height:18%;
+    width:18%;
+    opacity:0.8;
+    transition-duration:0.8s;
+}
+#app-icons:nth-child(5) {
+    height:15%;
+    width:15%;
+    opacity:0.8;
+    transition-duration:0.8s;
+}
+#app-icons:nth-child(1):hover,
+#app-icons:nth-child(2):hover,
+#app-icons:nth-child(3):hover,
+#app-icons:nth-child(4):hover,
+#app-icons:nth-child(5):hover {
+    border-bottom:2.5px solid black;
+}
