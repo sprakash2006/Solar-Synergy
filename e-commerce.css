@@ -1,0 +1,179 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body {
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+
+button {
+    cursor:pointer;
+}
+
+ #solar-synergy-text-logo {
+    height:12%;
+    width:12%;
+    margin-left:6%;
+    position:relative;
+    top:6px;
+ }
+#navbar {
+    display:flex;
+    align-items:center;
+    justify-content: start;
+    background-color:#000000;
+    cursor:pointer;
+    padding-top:0.7%;
+    padding-bottom:0.7%;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index:100;
+    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.671);
+}
+.navbar-ul-list {
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-right:7%;
+}
+.navbar-ul-list li {
+    margin-left:40px;
+    color:azure;
+    font-size:1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar-links {
+    color:white;
+    text-decoration:underline;
+    text-decoration-color:black;
+}
+
+#pricing-home-page-first-section {
+    display:flex;
+    flex-direction:column;
+    margin-top:0;
+    padding-left:4.5%;
+    padding-top:13%;
+    padding-bottom:6%;
+    background-color:rgb(255, 255, 255);
+    padding-bottom:14%;
+}
+
+#pricing-home-page-first-section p:nth-child(1) {
+    width:100%;
+    height:auto;
+    color:rgba(0, 0, 0, 0.8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:45px;
+}
+#pricing-home-page-first-section p:nth-child(3) {
+    width:100%;
+    height:auto;
+    color:rgba(0, 0, 0, 0.332);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    margin-top:0;
+    margin-left:40%;
+}
+#pricing-home-page-first-section img {
+    height:65%;
+    width:65%;
+    margin-top:9%;
+}
+#our-product-range {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:5%;
+    padding-bottom:1%;
+    width:100%;
+    height:auto;
+    color:rgba(0, 0, 0, 0.8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:45px;
+}
+
+#solar-synergy-product-grid-1 {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:35px;
+    row-gap:80px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:4%;
+    margin-bottom:8%;
+}
+.solar-synergy-product-grid-block-1 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition-duration:1.2s;
+}
+.solar-synergy-product-grid-block-1 img {
+    height:80%;
+    width:80%; 
+    background-color:color;
+    border-radius:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-top:3%;
+    transition-duration:0.9s;
+}
+.solar-synergy-product-grid-block-1 img:hover {
+    scale:1.05;
+    box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.7);
+    background-color:rgba(240, 255, 255, 0.5);
+}
+.solar-synergy-product-grid-block-1 p {
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    margin-top:4.5%;
+}
+.solar-synergy-product-grid-block-1 button {
+    height:35px;
+    width:130px;
+    margin-top:17px;
+    margin-bottom:10px;
+    padding-right:12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgba(0, 140, 255, 0.348);
+    color:black;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:0.4px;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    scale:1.1;
+    transition-duration:1s;
+}
+.solar-synergy-product-grid-block-1 button:hover {
+    scale:1.15;
+}
+
+
+.all-product-details-1 .product-details-1:nth-child(1) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-1 .product-details-1:nth-child(2) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-1 .product-details-1:nth-child(3) {
+    display:none;
+    margin:0 20%;
+}
+.all-product-details-1 .product-details-1:nth-child(4) {
+    display:none;
+    margin:0 20%;
+}
